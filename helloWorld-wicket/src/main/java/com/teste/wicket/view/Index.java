@@ -14,4 +14,12 @@ public class Index extends WebPage {
         this.add(new Label("teste", new PropertyModel<String>(this, "texto")));
     }
 
+    public String getTexto() {
+        return texto;
+    }
+
+    public void setTexto(String texto) {
+        this.texto = texto;
+    }
+
 }

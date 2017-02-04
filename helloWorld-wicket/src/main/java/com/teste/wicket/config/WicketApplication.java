@@ -10,14 +10,10 @@ public class WicketApplication extends WebApplication {
         super();
     }
 
+    @Override
     @SuppressWarnings({ "unchecked", "rawtypes" })
     public Class getHomePage() {
         return Index.class;
-    }
-
-    @Override
-    protected void init() {
-        super.init();
     }
 
 }
